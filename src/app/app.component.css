@@ -1,0 +1,86 @@
+.column{
+  float: left;
+  margin: 30px;
+}
+table {
+  width: 100%;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.logo h4 {
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0;
+}
+.form-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+table {
+  text-align: left;
+  margin: 12px;
+}
+thead {
+  background-color: #333;
+  color: white;
+}
+th {
+  padding: 8px;
+  height: 20px;
+}
+tr, td, table{
+  border-bottom: 1px solid #aaa;
+  border-collapse: collapse;
+  padding: 8px;
+}
+
+td {
+  height: 20px;
+}
+
+.Icolumn {
+  width: 40%;
+  min-width: 300px;
+  display: flex;
+  position: relative;
+}
+.Icolumn label:first-child {
+  width: 100px;
+  margin: 12px;
+}
+.Icolumn input {
+  margin: 6px;
+}
+
+.myBtn {
+  background-color: #33ddaf;
+  padding: 7px 22px;
+  color: white;
+  font-weight: 700;
+  border-radius: 22px;
+  border: 1px solid #3da;
+  margin: 8px;
+  cursor: pointer
+}
+.myBtn:hover {
+  background-color: #11aa9d;
+}
+.myBtn:focus {
+  outline: none;
+}

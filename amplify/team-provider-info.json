@@ -13,7 +13,13 @@
     },
     "categories": {
       "auth": {
-        "angularamplifydemod719047cd719047c": {}
+        "angularamplifydemoa4cf05cd": {}
+      },
+      "function": {
+        "hellolambda": {
+          "deploymentBucketName": "amplify-angularamplifydemo-angbackdev-70024-deployment",
+          "s3Key": "amplify-builds/hellolambda-75455564595455686f55-build.zip"
+        }
       }
     }
   }
