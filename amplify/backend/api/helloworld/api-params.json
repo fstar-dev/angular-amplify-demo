@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/hello",
+            "lambdaFunction": "hellolambda",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/hello"
+        }
+    ],
+    "resourceName": "helloworld",
+    "apiName": "helloworld",
+    "functionArns": [
+        {
+            "lambdaFunction": "hellolambda"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-angularamplifydemo-angbackdev-70024-authRole",
+        "unAuthRoleName": "amplify-angularamplifydemo-angbackdev-70024-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "hellolambda",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
