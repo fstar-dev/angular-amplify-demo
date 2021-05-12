@@ -2,6 +2,9 @@ import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { AppModule } from './app/app.module';
+
+
+//this is to test git merge
 import { environment } from './environments/environment';
 
 import Amplify from "aws-amplify";
